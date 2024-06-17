@@ -83,7 +83,7 @@ SELECT
 	DISTINCT city
 FROM sales;
 
--- In which city is each branch?
+-- Where are each of the branches located?
 SELECT 
 	DISTINCT city,
     branch
