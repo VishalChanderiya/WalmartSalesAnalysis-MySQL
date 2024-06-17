@@ -74,7 +74,7 @@ The dataset was obtained from the [Kaggle Walmart Sales Forecasting Competition]
 ### Generic Question
 
 1. How many unique cities does the data have?
-2. In which city is each branch?
+2. Where are each of the branches located?
 
 ### Product
 
