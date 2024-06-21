@@ -102,6 +102,11 @@ SELECT
 	DISTINCT product_line
 FROM sales;
 
+-- What is the most common payment method?
+SELECT
+payment, COUNT(payment) AS Cnt
+FROM sales GROUP BY payment
+ORDER BY cnt DESC;
 
 -- What is the most selling product line
 SELECT
