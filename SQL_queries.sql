@@ -108,13 +108,11 @@ payment, COUNT(payment) AS Cnt
 FROM sales GROUP BY payment
 ORDER BY cnt DESC;
 
--- What is the most selling product line
+-- What is the most selling product line?
 SELECT
-	SUM(quantity) as qty,
-    product_line
-FROM sales
-GROUP BY product_line
-ORDER BY qty DESC;
+product_line, COUNT(product_line) AS Cnt
+FROM sales GROUP BY product_line
+ORDER BY cnt DESC;
 
 -- What is the most selling product line
 SELECT
